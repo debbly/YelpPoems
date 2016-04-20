@@ -2,8 +2,6 @@ import os
 
 from flask import Flask, render_template
 
-import ling
-
 app = Flask(__name__)
 all_words_dict = {}
 
