@@ -5,6 +5,8 @@ from flask import Flask, render_template
 app = Flask(__name__)
 all_words_dict = {}
 
+import poem
+
 # Views
 @app.route('/')
 @app.route('/index', methods=['GET'])
