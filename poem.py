@@ -14,5 +14,7 @@ params = {
 	'limit': '1'
 }
 
+def text(city):
 # User should input the city
-city = ''
+	jsonString = client.search(city, params)
+	return json['text']

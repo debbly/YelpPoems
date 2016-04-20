@@ -13,9 +13,11 @@ import poem
 def index():
     global all_words_dict
     all_words_dict = {}
-
     return render_template('index.html')
 
+def getInput():
+	return text = poem.text('')
+	
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000
     port = int(os.environ.get('PORT', 5000))
