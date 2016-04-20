@@ -1,7 +1,7 @@
 .PHONY: clean run
 
 run:
-	python poem.py
+	python main.py
 
 clean:
 	find . -name '*.pyc' -delete
