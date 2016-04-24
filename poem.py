@@ -16,7 +16,7 @@ params = {
 
 def main():
 	city = ''
-	all_words_dict = text(city).split()
+	all_words_dict = text(city).split('\n')
 
 def text(city):
 # User should input the city
