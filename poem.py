@@ -14,6 +14,10 @@ params = {
 	'limit': '1'
 }
 
+def main():
+	city = ''
+	all_words_dict = text(city)
+
 def text(city):
 # User should input the city
 	jsonString = client.search(city, params)

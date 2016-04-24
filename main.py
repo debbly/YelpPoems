@@ -16,8 +16,8 @@ def index():
     return render_template('index.html')
 
 def getInput():
-	return text = poem.text('')
-	
+	return poem.text('')
+
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000
     port = int(os.environ.get('PORT', 5000))
