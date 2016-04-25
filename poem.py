@@ -16,9 +16,9 @@ params = {
 
 def main():
 	city = ''
-	all_words_dict = text(city).split('\n')
+	all_words_dict = text(city)['snippet_text'].split('\n')
 
 def text(city):
 # User should input the city
 	jsonString = client.search(city, params)
-	return json['text']
+	return json['businesses']
