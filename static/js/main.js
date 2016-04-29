@@ -5,3 +5,18 @@ function scrollBottom(){
 function appendLine(text) {
     $("#poetry").append(text + "<br>");
 }
+
+(function poll() {
+    setTimeout(function() {
+        $.ajax({
+            url: "/line",
+            type: "GET",
+            success: function(text) {
+                getInput(text);
+            },
+            dataType: "text",
+            complete: poll,
+            timeout: 2000
+        })
+    }, 500);
+})();
