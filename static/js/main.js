@@ -3,7 +3,7 @@ function scrollBottom(){
 }
 
 function getInput() {
-	$().text();
+	$("input").text();
 }
 
 function appendLine(text) {
