@@ -16,7 +16,7 @@ function appendLine(text) {
             url: "/line",
             type: "GET",
             success: function(text) {
-                getInput(text);
+                getInput();
             },
             dataType: "text",
             complete: poll,
