@@ -4,6 +4,7 @@ function scrollBottom(){
 
 function getInput() {
 	text = $("input").text();
+	appendLine(text);
 }
 
 function appendLine(text) {
