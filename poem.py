@@ -9,7 +9,7 @@ with io.open('config_secret.json') as cred:
 
 client = Client(auth)
 
-# Parameters should be user inputted
+# Parameters, update the limit to randomize! 
 params = {
 	'limit': '1'
 }
