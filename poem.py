@@ -11,7 +11,7 @@ client = Client(auth)
 
 # Parameters, update the limit to randomize! 
 params = {
-	'limit': '1'
+	'limit': '3'
 }
 
 def main():
@@ -21,4 +21,5 @@ def main():
 def text(city):
 # User should input the city
 	jsonString = client.search(city, params)
+	json = jsonString[1]
 	return json['businesses']
