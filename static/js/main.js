@@ -11,6 +11,8 @@ function appendLine(text) {
     $("#poetry").append(text + "<br>");
 }
 
+//should only print out for every text input
+
 (function poll() {
     setTimeout(function() {
         $.ajax({
