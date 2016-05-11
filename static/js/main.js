@@ -3,6 +3,7 @@ function scrollBottom(){
 }
 
 function getInput() {
+	//wait for a click on the button
 	text = $("input").text();
 	appendLine(text);
 }
