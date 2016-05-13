@@ -14,6 +14,8 @@ params = {
 	'limit': '3'
 }
 
+#need error checking in python
+
 def main():
 	city = ''
 	all_words_dict = text(city)['snippet_text'].split('\n')
