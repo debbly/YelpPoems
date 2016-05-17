@@ -16,7 +16,8 @@ def index():
     return render_template('index.html')
 
 def getInput():
-	return poem
+	input = $('input').text();
+	return poem.text(input)
 
 def poemRet():
 	print(all_words_dict) 
