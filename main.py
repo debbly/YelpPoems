@@ -16,7 +16,7 @@ def index():
     return render_template('index.html')
 
 def getInput():
-	input = $('input').text();
+	input = $('input').text()
 	return poem.text(input)
 
 def poemRet():
